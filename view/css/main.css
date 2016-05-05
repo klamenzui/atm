@@ -1,0 +1,55 @@
+header
+{
+margin: 40px; 
+font-size: 40px;
+text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+article
+{
+background-color:#E7E6E6;
+width: 400px;
+height: 300px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin: -150px 0 0 -200px;
+border-radius: 30px;
+}
+
+
+input[type="text"] 
+{
+width:250px;
+height: 30px;
+border-radius: 3px;
+text-align: center;
+}
+input[type="password"] 
+{
+width:250px;
+height: 30px;
+border-radius: 3px;
+text-align: center;
+}
+input[type="submit"] 
+{
+width:122px;
+height: 30px;
+border-radius: 3px;
+background: -moz-linear-gradient(#BEBEBE, #D3D3D3);
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#BEBEBE), to(#D3D3D3));
+font-size: 15px;
+text-align: center;
+}
+p
+{
+font-size: 15px;
+text-align: center;
+}
+.maintext
+{
+font-size: 18px;
+font-family: 'Merriweather', serif;
+}

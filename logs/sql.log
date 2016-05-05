@@ -1,0 +1,5 @@
+SELECT * FROM  `a_money` WHERE cur='@cur@'
+Array
+(
+    [cur:s] => dollar
+)
