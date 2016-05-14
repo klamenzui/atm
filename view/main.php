@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<title>
+My ATM
+</title>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title><?php echo $title; ?></title>
@@ -32,7 +35,7 @@ My ATM
 	</div><!-- #header-->
 
 	<div id="middle">
-		<div id="container">
+		<article id="container">
 			<div id="content_head" class="gradient">
 			<div id="bo_logo" >&nbsp;</div>
 				<div class="navigation">
@@ -47,7 +50,7 @@ My ATM
 					</div>
 				</div><!-- #content-->
 			</div>
-		</div><!-- #container-->
+		</article><!-- #container-->
 	</div><!-- #middle-->
 
 </div><!-- #wrapper -->

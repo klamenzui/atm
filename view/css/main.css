@@ -9,12 +9,9 @@ font-family: 'Merriweather', serif;
 article
 {
 background-color:#E7E6E6;
-width: 400px;
-height: 300px;
-position: absolute;
-top: 50%;
-left: 50%;
-margin: -150px 0 0 -200px;
+width:60%;
+padding: 10pt;
+margin: 0 auto;
 border-radius: 30px;
 }
 
@@ -33,7 +30,29 @@ height: 30px;
 border-radius: 3px;
 text-align: center;
 }
-input[type="submit"] 
+.col{
+	padding: 7pt auto;
+	min-width:46%;
+	max-width:50%;
+	margin: 10pt;
+	display:inline-block;
+}
+a{
+    background-color: #eee;
+    background-image: -moz-linear-gradient(center top , #eee, #ddd);
+    border: 0 none;
+    border-radius: 10pt;
+    box-shadow: 0 2pt 2pt 0 #999999;
+	height: 20pt;
+    line-height: 20pt;
+	padding: 7pt;
+	margin:5pt;
+	text-decoration: none;
+	font-size:20pt;
+	display:block;
+	text-align:center;
+}
+input[type="submit"]
 {
 width:122px;
 height: 30px;
@@ -52,4 +71,18 @@ text-align: center;
 {
 font-size: 18px;
 font-family: 'Merriweather', serif;
+}
+#balance
+{
+display: none;
+font-size: 18px;
+font-family: 'Merriweather', serif;
+background-color:#F5F5F5;
+width: 300px;
+height: 300px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin: -150px 0 0 -150px;
+border-radius: 30px;
 }

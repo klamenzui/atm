@@ -25,7 +25,7 @@ $set=array(
 		'keywords'=>'keywords',
 		'description'=>'description',
 		'url'=>array(
-			'base'=>'bmat/',
+			'base'=>'atm/',
 			'client_path' => 'view',
 			'media' => 'media'
 		),
